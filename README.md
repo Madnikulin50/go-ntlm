@@ -1,5 +1,3 @@
-# IMPORTANT NOTE
-This repository will be removed on December 14th and will no longer be maintained and ownership will also not be transferred. Please fork this repositiory if you wish to continue to use it.
 
 
 # NTLM Implementation for Go
@@ -17,7 +15,7 @@ the client and the server, for our use we hardcoded a supported set of negotiati
 ## Sample Usage as NTLM Client
 
 ```go
-import "github.com/ThomsonReutersEikon/go-ntlm/ntlm"
+import "github.com/madnikulin50/go-ntlm/ntlm"
 
 session, err = ntlm.CreateClientSession(ntlm.Version2, ntlm.ConnectionlessMode)
 session.SetUserInfo("someuser","somepassword","somedomain")
